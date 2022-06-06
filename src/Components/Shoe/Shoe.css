@@ -1,0 +1,14 @@
+.shoe-color{
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+}
+.shoe-color img {
+    width: 100px;
+    border: 1px solid rgb(209, 206, 206);
+    border-radius: 5px;
+}
+
+.shoe-color img:hover{
+    border: 1px solid tomato;
+}

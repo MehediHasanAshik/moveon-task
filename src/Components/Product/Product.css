@@ -1,0 +1,78 @@
+.full-container {
+    display: flex;
+}
+
+.img-container{
+    width: 40%;
+    margin-top: 10px;
+}
+.img-container img {
+    width: 100%;
+}
+
+.product-container{
+    width: 60%;
+    margin: 10px;
+}
+
+.title {
+    background-color: rgb(245, 167, 138);
+    padding: 10px;
+    text-align: left;
+}
+
+.price {
+    display: flex;
+    gap: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+}
+
+.discounted-price{
+    color: gray;
+}
+
+.shoe-cart {
+    display: flex;
+    margin: 10px 0;
+    gap: 20px;
+    background-color: whitesmoke;
+}
+
+.color-container{
+    text-align: left;
+}
+
+.size-cart {
+    width: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.size-cart p{
+    width: 90px;
+    font-weight: 500;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.size-cart p:hover{
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .full-container{
+        display: block;
+    }
+    .img-container{
+        width: 100%;
+    }
+    .product-container{
+        width: 100%;
+        margin: 10px;
+    }
+}
+
